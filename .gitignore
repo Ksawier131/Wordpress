@@ -1,0 +1,46 @@
+# Ignorowanie plików systemowych i konfiguracyjnych
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.sql
+*.tar.gz
+*.gz
+
+# Ignorowanie plików konfiguracyjnych
+.env
+.htaccess
+wp-config.php
+wp-config-sample.php
+
+# Ignorowanie katalogów z rdzeniem WordPressa (można kontrolować wersje WordPressa przez narzędzie jak Composer)
+wp-admin/
+wp-includes/
+
+# Ignorowanie wtyczek i motywów instalowanych z zewnętrznych źródeł (np. oficjalne repozytorium WP)
+wp-content/plugins/
+wp-content/themes/twenty*/
+
+# Ignorowanie przesyłanych plików (media)
+wp-content/uploads/
+
+# Ignorowanie cache i backupów
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/backups/
+wp-content/upgrade/
+wp-content/ai1wm-backups/
+
+
+# Ignorowanie plików backupów
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# Ignorowanie innych plików generowanych przez system
+sitemap.xml
+sitemap.xml.gz
